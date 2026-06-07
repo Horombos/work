@@ -1,0 +1,8 @@
+IF DB_ID(N'ProteinWSME') IS NULL
+BEGIN
+    CREATE DATABASE ProteinWSME;
+END;
+GO
+
+USE ProteinWSME;
+GO
